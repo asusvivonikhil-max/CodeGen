@@ -1,0 +1,10 @@
+# Get input from the user
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+# Divide the first number by the second
+if num2!=0:
+    quotient = num1 / num2
+    print("The quotient is:", quotient) 
+else:
+    print("Divisor can't be zero")
